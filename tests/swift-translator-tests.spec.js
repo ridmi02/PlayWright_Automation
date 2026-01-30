@@ -22,8 +22,8 @@ const TEST_DATA = {
     {
       tcId: 'Pos_Fun_001',
       name: 'Simple present tense statement',
-      input: 'mama iskoolee inna',
-      expected: 'මම ඉස්කෝලේ ඉන්න',
+      input: 'mama iskoolee yanavaa',
+      expected: 'මම ඉස්කෝලේ යනවා',
       category: 'Daily language usage',
       grammar: 'Simple sentence',
       length: 'S'
@@ -31,8 +31,8 @@ const TEST_DATA = {
     {
       tcId: 'Pos_Fun_002',
       name: 'Simple food request',
-      input: 'mata kiri oonee',
-      expected: 'මට කිරි ඕනේ',
+      input: 'mata bath oonee',
+      expected: 'මට බත් ඕනේ',
       category: 'Daily language usage',
       grammar: 'Simple sentence',
       length: 'S'
@@ -40,8 +40,8 @@ const TEST_DATA = {
     {
       tcId: 'Pos_Fun_003',
       name: 'Going home statement',
-      input: 'api gedhara yanavaa',
-      expected: 'අපි ගෙදර යනවා',
+      input: 'mama gedhara yanavaa',
+      expected: 'මම ගෙදර යනවා',
       category: 'Daily language usage',
       grammar: 'Simple sentence',
       length: 'S'
@@ -51,8 +51,8 @@ const TEST_DATA = {
     {
       tcId: 'Pos_Fun_004',
       name: 'Two activities connected',
-      input: 'mama kaeema kannam saha passee naaginnam',
-      expected: 'මම කෑම කන්නම් සහ පස්සේ නාගින්නම්',
+      input: 'mama kaeema kaalaa tikakin passee nidhaagannam',
+      expected: 'මම කෑම කාලා ටිකකින් පස්සේ නිදාගන්නම්',
       category: 'Daily language usage',
       grammar: 'Compound sentence',
       length: 'S'
@@ -60,8 +60,8 @@ const TEST_DATA = {
     {
       tcId: 'Pos_Fun_005',
       name: 'Weather condition compound',
-      input: 'vaessa yanavanam api yannee naee',
-      expected: 'වැස්ස යනවනම් අපි යන්නේ නෑ',
+      input: 'heta vahinavanam api yannee naee',
+      expected: 'හෙට වහිනවනම් අපි යන්නේ නෑ',
       category: 'Daily language usage',
       grammar: 'Compound sentence',
       length: 'S'
@@ -71,8 +71,8 @@ const TEST_DATA = {
     {
       tcId: 'Pos_Fun_006',
       name: 'Conditional complex sentence',
-      input: 'oyaa enavaanam mama innaanam kaeema laeesthi karannam',
-      expected: 'ඔයා එනවානම් මම ඉන්නානම් කෑම ලෑස්ති කරන්නම්',
+      input: 'oyaa enavaanam mama innanam kaeema laeesthi karagena',
+      expected: 'ඔයා එනවානම් මම ඉන්නනම් කෑම ලෑස්ති කරගෙන',
       category: 'Daily language usage',
       grammar: 'Complex sentence',
       length: 'M'
@@ -82,8 +82,8 @@ const TEST_DATA = {
     {
       tcId: 'Pos_Fun_007',
       name: 'Simple question about state',
-      input: 'oyaa kohedha innee',
-      expected: 'ඔයා කොහෙද ඉන්නේ',
+      input: 'oyaa kohedha yannee',
+      expected: 'ඔයා කොහෙද යන්නේ',
       category: 'Daily language usage',
       grammar: 'Interrogative (question)',
       length: 'S'
@@ -100,8 +100,8 @@ const TEST_DATA = {
     {
       tcId: 'Pos_Fun_009',
       name: 'Polite question request',
-      input: 'oyaata mata eeka kiyanna puluvandha',
-      expected: 'ඔයාට මට ඒක කියන්න පුලුවන්ද',
+      input: 'mata vathura tikak dhenna puluvandha',
+      expected: 'මට වතුර ටිකක් දෙන්න පුලුවන්ද',
       category: 'Greeting / request / response',
       grammar: 'Interrogative (question)',
       length: 'S'
@@ -111,8 +111,8 @@ const TEST_DATA = {
     {
       tcId: 'Pos_Fun_010',
       name: 'Direct command',
-      input: 'Laga enna',
-      expected: 'ළග එන්න',
+      input: 'LaGAta enna',
+      expected: 'ළඟට එන්න',
       category: 'Daily language usage',
       grammar: 'Imperative (command)',
       length: 'S'
@@ -120,8 +120,8 @@ const TEST_DATA = {
     {
       tcId: 'Pos_Fun_011',
       name: 'Polite command',
-      input: 'karuNaakaralaa poddak thissee balanna',
-      expected: 'කරුණාකරලා පොඩ්ඩක් තිස්සේ බලන්න',
+      input: 'karuNaakaralaa poddak inna puluvandha',
+      expected: 'කරුණාකරලා පොඩ්ඩක් ඉන්න පුලුවන්ද',
       category: 'Greeting / request / response',
       grammar: 'Imperative (command)',
       length: 'S'
@@ -160,8 +160,8 @@ const TEST_DATA = {
     {
       tcId: 'Pos_Fun_015',
       name: 'Future tense plan',
-      input: 'api heta kolambata yamu',
-      expected: 'අපි හෙට කොලම්බට යමු',
+      input: 'api heta pansal yamu',
+      expected: 'අපි හෙට පන්සල් යමු',
       category: 'Daily language usage',
       grammar: 'Future tense',
       length: 'S'
@@ -171,8 +171,8 @@ const TEST_DATA = {
     {
       tcId: 'Pos_Fun_016',
       name: 'Simple negation',
-      input: 'mata epaa eeka',
-      expected: 'මට එපා ඒක',
+      input: 'mata eeka epaa',
+      expected: 'මට ඒක එපා',
       category: 'Daily language usage',
       grammar: 'Negation (negative form)',
       length: 'S'
@@ -191,8 +191,8 @@ const TEST_DATA = {
     {
       tcId: 'Pos_Fun_018',
       name: 'Plural pronoun usage',
-      input: 'eyaalaa heta enavaa',
-      expected: 'එයාලා හෙට එනවා',
+      input: 'eyaalaa heta palli yanavaa',
+      expected: 'එයාලා හෙට පල්ලි යනවා',
       category: 'Daily language usage',
       grammar: 'Plural form',
       length: 'S'
@@ -213,8 +213,8 @@ const TEST_DATA = {
     {
       tcId: 'Pos_Fun_020',
       name: 'English brand term embedded',
-      input: 'mata Facebook account eka login karanna baee',
-      expected: 'මට Facebook account එක login කරන්න බෑ',
+      input: 'mata Facebook account ekata login venna baee',
+      expected: 'මට Facebook account එකට login වෙන්න බෑ',
       category: 'Mixed Singlish + English',
       grammar: 'Simple sentence',
       length: 'S'
@@ -222,8 +222,8 @@ const TEST_DATA = {
     {
       tcId: 'Pos_Fun_021',
       name: 'Place name preservation',
-      input: 'nimeelaa Kandy giyaa',
-      expected: 'නිමේලා Kandy ගියා',
+      input: 'nimeesaa Jaffna giyaa',
+      expected: 'නිමේසා Jaffna ගියා',
       category: 'Names / places / common English words',
       grammar: 'Past tense',
       length: 'S'
@@ -267,7 +267,7 @@ const TEST_DATA = {
     {
       tcId: 'Neg_Fun_001',
       name: 'Missing space between words',
-      input: 'mamagedharainnee',
+      input: 'mamagedharaneveiinnee',
       expected: 'මම ගෙදර ඉන්නේ',
       category: 'Typographical error handling',
       grammar: 'Simple sentence',
@@ -294,7 +294,7 @@ const TEST_DATA = {
     {
       tcId: 'Neg_Fun_004',
       name: 'Line break in sentence',
-      input: 'මම ගෙදර යනවා කමල්ටත් කියන්න',
+      input: 'mama gedhara yanne nae',
       expected: 'මම යනවම්\nගෙදර',
       category: 'Formatting (spaces / line breaks / paragraph)',
       grammar: 'Simple sentence',
