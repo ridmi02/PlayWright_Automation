@@ -183,5 +183,7 @@ Test results are saved in the `test-results/` directory:
 This project is for educational purposes as part of IT3040 - ITPM assignment.
 
 ## Author
+Rodrigo.S.R.M
+IT23325364.
 
 BSc (Hons) in Information Technology - Year 3 Student
